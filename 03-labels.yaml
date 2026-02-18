@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata: 
+  name: usage-of-labels
+  labels:
+    name: krishna
+    version: v1
+
+spec: 
+  containers:
+    - name: nginx
+      image:  nginx
+      
