@@ -1,4 +1,4 @@
-kind: Pod
+kind: namespace
 apiVersion: v1
 metadata: 
   name: my-namespace
