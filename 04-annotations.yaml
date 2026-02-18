@@ -1,0 +1,17 @@
+kind: Pod
+apiVersion: v1
+metadata: 
+  name: usage-of-annotations
+  labels:
+    name: krishna
+    version: v1
+  annotations:  
+    # annotations can be created simialar to an
+    jenkins.url:  "http://jenkins:8080"
+    name: annatoations@lfahgg
+
+spec: 
+  containers:
+    - name: nginx
+      image:  nginx
+      
