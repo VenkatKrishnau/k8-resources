@@ -4,5 +4,6 @@ metadata:
   name: my-app
 
 spec: 
-  name: nginx
-  image:  nginx  
+  containers: 
+    - name: nginx
+      image:  nginx  
